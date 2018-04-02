@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/favicon/favicon.jpg">
+	<title>Java Script</title>
+</head>
+<body>
+	<div class="container">
+		
+		<header>
+			<div class="header-top">
+				<div class="row">
+					<div class="col-12 col-md-2"><h3>nameShop</h3></div>
+					<div class="col-12 col-md-5 col-lg-6 col-xl-7">Работа - Загудаева Кирилла</div>
+					<div class="col-12 col-md-5 col-lg-4 col-xl-3">
+						<ul>
+							<li title="Главная"><i class="fa fa-home"></i></li>
+							<li title="Контакты"><i class="fa fa-file-text-o"></i></li>
+							<li title="Авторизация"><i class="fa fa-key"></i></li>
+							<li title="Корзина"><i class="fa fa-shopping-cart"></i></li>
+							<li title="Товары"><p>0</p></li>
+							<li title="Меню"><i class="fa fa-bars"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="head-info">
+				<div class="row">
+					<div class="col-12 col-md-8 col-lg-9">
+						<h2>Интернет маганин</h2>
+						<p>Я рад Вас видеть в своём магазине</p>
+					</div>
+					<div class="col-12 col-md-4 col-lg-3">
+						<div class="open">
+							<button class="open-btn" id="open-btn" title="Открыть магазин">Открыть магазин</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="main">
+			<div class="row">
+				<div class="col-6">
+					<div class="main-functions">
+
+						<input class="goods-item" type="text" id="goods_1" required>
+						<input class="goods-item" type="text" id="goods_2" required>
+						<input class="goods-item" type="text" id="goods_3" required>
+						<input class="goods-item" type="text" id="goods_4" required>
+						<button class="goods-item-btn"><i class="fa fa-check"></i>Утвердить</button>
+
+						<div class="choose-items">Введите продукты через запятую</div>
+						<input class="choose-item" type="text" id="items" required>
+						<div class="time">Сколько сейчас времени?</div>
+						<input class="time-value" type="text" id="time" required>
+						<div class="count-budget">Расчет дневного бюджета</div>
+						<input class="count-budget-value" type="text" id="budget" required>
+						<button class="count-budget-btn"><i class="fa fa-money"></i> Рассчитать</button>
+
+						<div class="hire-employers">Имена сотрудников</div>
+						<input class="hire-employers-item" type="text" id="employers_1" required>
+						<input class="hire-employers-item" type="text" id="employers_2" required>
+						<input class="hire-employers-item" type="text" id="employers_3" required>
+						<button class="hire-employers-btn"><i class="fa fa-handshake-o"></i> Нанять</button>
+						
+					</div>
+				</div>
+				<div class="col-6">
+
+					<div class="main-info">
+						<div class="name">Название магазина: </div>
+						<div class="name-value"></div>
+						<div class="budget">Бюджет магазина: </div>
+						<div class="budget-value"></div>
+						<div class="goods">Категории товаров: </div>
+						<div class="goods-value"></div>
+						<div class="items">Наименования товаров: </div>
+						<div class="items-value"></div>
+						<div class="employers">Сотрудники: </div>
+						<div class="employers-value"></div>
+						<div class="discount">Дисконтная система </div>
+						<div class="discount-value"></div>
+						<div class="isopen">Открыто </div>
+						<div class="isopen-value"></div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<footer>
+			<div class="row">
+				<div class="col">
+					<p>Академия Вёрстки / <a href="#">Курс JavaScript</a> / Загудаев Кирилл</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+	<script  src="js/scripts.min.js">	</script>
+</body>
+</html>
