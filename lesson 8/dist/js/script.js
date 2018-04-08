@@ -52,6 +52,16 @@ let deadline = '2018-04-09';
 							'minutes': minutes,
 							'seconds': seconds
 							};
+
+						if (time.hours < 10) {
+							time.hours = '0' + time.hours;
+						};
+						if (time.minutes < 10) {
+							time.minutes = '0' + time.minutes;
+						};
+						if (time.seconds < 10) {
+							time.seconds = '0' + time.seconds;
+						};
 						return time;
 										
 			};
@@ -90,13 +100,10 @@ let deadline = '2018-04-09';
 				seconds = timer.querySelector('.seconds'),
 				text = document.getElementsByClassName('timer-action')[0];
 
-		hours.textContent = '0';
-		minutes.textContent = '0';
-		seconds.textContent = '0';
-		text.textContent = 'К сожалению, акция уже закончилась.';
+		hours.textContent = '00';
+		minutes.textContent = '00';
+		seconds.textContent = '00';
+		text.textContent = 'Время вышло.';
 
 	};
 });
-
-let date = new Date();
-console.log(date);
