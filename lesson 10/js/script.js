@@ -1,7 +1,5 @@
-//tabs
-
 window.addEventListener('DOMContentLoaded', function() {
-	
+//tabs	
 	let tab = document.getElementsByClassName('info-header-tab'),
 	tabContent = document.getElementsByClassName('info-tabcontent'),
 	info = document.getElementsByClassName('info-header')[0],
@@ -35,9 +33,9 @@ window.addEventListener('DOMContentLoaded', function() {
 		}
 	});
 
-	// Timer
+//timer
 
-	let deadline = '2018-04-28';
+	let deadline = '2018-04-21';
 
 	function getTimeRemainng(endTime) {
 		let t = Date.parse(endTime) - Date.parse(new Date()),
@@ -121,7 +119,7 @@ anchors.forEach(function(item) {
 	});
 });
 
-// Modal
+//modal
 
 let more = document.querySelector('.more'),
 overlay = document.querySelector('.overlay'),
