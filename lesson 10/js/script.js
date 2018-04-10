@@ -139,6 +139,7 @@ close.addEventListener('click', function() {
 infoContent.addEventListener('click', function() {
 	let target = event.target;
 
+
 	if (target.className === 'description-btn') {
 		overlay.style.display = 'block';
 		document.body.style.overflow = 'hidden';
